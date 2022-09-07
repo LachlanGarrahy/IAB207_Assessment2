@@ -1,0 +1,17 @@
+/* variables */
+:root{
+    --background: white;
+    --foreground: lightgrey;
+    --main_text: black;
+    --title_text: purple;
+    --slected_text: blue;
+    --unselected_text: grey;
+}
+
+.title-main{
+    margin-top: 0;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: var(--title_text);
+}
