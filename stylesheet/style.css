@@ -47,3 +47,13 @@
     padding-right: 5px;
     text-align: center;
 }
+
+.breadcrumb{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.breadcrumb-item a{
+    padding-left: 40px;
+    color: var(--main_text);
+}
