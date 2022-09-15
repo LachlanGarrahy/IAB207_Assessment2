@@ -44,69 +44,243 @@
 
     <main>
       <div class="index-page">
-        <div class="container">
+        <div class="container index-page">
 
           <div class="page-title">
             <h1>Current Events</h1>
           </div>
 
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control mr-sm-2 rounded-pill index-search-bar" type="search" placeholder="Search" aria-label="Search">
+
+          <nav class="navbar navbar-expand-sm index-content-navbar navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                <ul class="navbar-nav mr-auto mb-0">
+                  <li class="nav-item index-navbar-content">
+                    <select class="form-select rounded-pill" aria-label="Default select example">
+                      <option style="display:none">Genre</option>
+                      <option value="1">Jazz</option>
+                      <option value="2">Classical</option>
+                      <option value="3">Rock</option>
+                      <option value="4">Pop</option>
+                      <option value="5">Hip-Hop</option>
+                      <option value="6">Electronic</option>
+                      <option value="7">Country</option>
+                    </select>
+                  </li>
+                  <li class="nav-item index-navbar-content">
+                    <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder="Location" aria-label="Search">
+                  </li>
+                  <li class="nav-item index-navbar-content">
+                    <select class="form-select rounded-pill" aria-label="Default select example">
+                      <option style="display:none">Date</option>
+                      <option value="1">Today</option>
+                      <option value="2">Tomorrow</option>
+                      <option value="3">This Weekend</option>
+                    </select>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
           <div class="row">
-            <div class="col-sm-12 col-md-4">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Genre</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+            <div class="col-md-6 col-lg-12">
+              <div class="card index-event-card">
+                <a class="card-block stretched-link text-decoration-none" href="event_details.html">
+                  <div class="row">
+                    <img src="img/img1.jpg" class="card-img-left col-md-12 col-lg-6" alt="image">
+                    <div class="card-body col-md-12 col-lg-6">
+                      <div class="row">
+                        <div class="col-12">
+                          <h5 class="card-title">The Mosh Pit</h5>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">The Warehouse<br> 8 McLachlan Street<br> Fortitude Valley, QLD 4006</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Sep 16, 2022, 7:00 PM AEST</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Hard Base Australian Artists</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">The Live Music Office</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Upcoming</h7>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
-            <div class="col-sm-12 col-md-4">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Location</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-            </div>
-            <div class="col-sm-12 col-md-4">
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Date</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-            </div>
-          </div>
 
-          <div class="card booking-history-card">
-            <div class="row">
-              <img src="" class="card-img-left col-sm-12 col-md-6" alt="image">
-              <div class="card-body col-sm-12 col-md-6">
-                <div class="row">
-                  <div class="col-12">
-                    <h5 class="card-title">Card title</h5>
+            <div class="col-md-6 col-lg-12">
+              <div class="card index-event-card">
+                <a class="card-block stretched-link text-decoration-none" href="event_details.html">
+                  <div class="row">
+                    <img src="img/img2.jpg" class="card-img-left col-md-12 col-lg-6" alt="image">
+                    <div class="card-body col-md-12 col-lg-6">
+                      <div class="row">
+                        <div class="col-12">
+                          <h5 class="card-title">Yotto - Brisbane</h5>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">O'Skulligans<br>105/38 Warner Street<br>Fortitude Valley, QLD 4006</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Sep 17, 2022, 7:00 PM AEST</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Smooth Jazz</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Instinct Music</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Booked</h7>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-12">
-                    <h7 class="card-text">Location</h7>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-12">
+              <div class="card index-event-card">
+                <a class="card-block stretched-link text-decoration-none" href="event_details.html">
+                  <div class="row">
+                    <img src="img/img3.jpg" class="card-img-left col-md-12 col-lg-6" alt="image">
+                    <div class="card-body col-md-12 col-lg-6">
+                      <div class="row">
+                        <div class="col-12">
+                          <h5 class="card-title">ERRA 'Pull from the Ghost' Australian Tour</h5>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">The Brightside Brisbane<br>27 Warner Street<br>Fortitude Valley, QLD 4006</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Sep 29, 2022, 7:00 PM AEST</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Indie Hard Rock</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">The Brightside</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Cancelled</h7>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-12">
-                    <h7 class="card-text">Date+Time</h7>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-12">
+              <div class="card index-event-card">
+                <a class="card-block stretched-link text-decoration-none" href="event_details.html">
+                  <div class="row">
+                    <img src="img/img4.jpg" class="card-img-left col-md-12 col-lg-6" alt="image">
+                    <div class="card-body col-md-12 col-lg-6">
+                      <div class="row">
+                        <div class="col-12">
+                          <h5 class="card-title">Extase</h5>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">The Warehouse<br> 8 McLachlan Street<br> Fortitude Valley, QLD 4006</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Sep 17, 2022, 7:00 PM AEST</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Classical</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">IPEA</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Booked</h7>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-12">
-                    <h7 class="card-text">Account</h7>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-12">
+              <div class="card index-event-card">
+                <a class="card-block stretched-link text-decoration-none" href="event_details.html">
+                  <div class="row">
+                    <img src="img/img5.jpg" class="card-img-left col-md-12 col-lg-6" alt="image">
+                    <div class="card-body col-md-12 col-lg-6">
+                      <div class="row">
+                        <div class="col-12">
+                          <h5 class="card-title">TELENOVA ‘STAINED GLASS LOVE TOUR 2022’</h5>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">The Warehouse<br> 8 McLachlan Street<br> Fortitude Valley, QLD 4006</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Oct 8, 2022, 7:00 PM AEST</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">New Age Hip-Hop</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Black Bear Lodge</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Cancelled</h7>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-12">
-                    <h7 class="card-text">Order ID</h7>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-12">
+              <div class="card index-event-card">
+                <a class="card-block stretched-link text-decoration-none" href="event_details.html">
+                  <div class="row">
+                    <img src="img/img6.jpg" class="card-img-left col-md-12 col-lg-6" alt="image">
+                    <div class="card-body col-md-12 col-lg-6">
+                      <div class="row">
+                        <div class="col-12">
+                          <h5 class="card-title">Silent Planet Australian Tour</h5>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">The Warehouse<br> 8 McLachlan Street<br> Fortitude Valley, QLD 4006</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Oct 20, 2022, 7:00 PM AEST</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Indie Solo Artists</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Hardware & Eden</h7>
+                        </div>
+                        <div class="col-12">
+                          <h7 class="card-text">Inactive</h7>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-12">
-                    <h7 class="card-text">Order Date+Time</h7>
-                  </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
-
+          
         </div>
       </div>
 
