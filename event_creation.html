@@ -32,10 +32,10 @@
                 <a class="nav-link" href="booking_history.html">Booking History</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sign Up</a>
+                <a class="nav-link" href="#">
+                  <img src="img/icon.png" alt="Logo" width="20" height="20" class="d-inline-block">
+                  billy@gmail.com
+                </a>
               </li>
             </ul>
           </div>
@@ -52,74 +52,76 @@
 
 
     <main>
-      <div class="container event-creation-layout">
-        <div class="page-title">
-          <h1>Event Creation</h1>
-        </div>
-        <div class="event-title">
-          <label for="basic-url" class="form-label">Event Title</label>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Title" id="basic-url" aria-describedby="basic-addon3">
+      <div class="event-creation-page">
+        <div class="container event-creation-layout">
+          <div class="page-title">
+            <h1>Event Creation</h1>
           </div>
-        </div>
-        <div class="event-image">
-          <label for="basic-url" class="form-label">Upload an Image</label>
-          <div class="input-group mb-3">
-            <input type="file" class="form-control" id="inputGroupFile01">
+          <div class="event-title">
+            <label for="basic-url" class="form-label">Event Title</label>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Title" id="basic-url" aria-describedby="basic-addon3">
+            </div>
           </div>
-        </div>
-        <div class="event-description">
-          <label for="basic-url" class="form-label">Event Description</label>
-          <div class="input-group create-description-box">
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+          <div class="event-image">
+            <label for="basic-url" class="form-label">Upload an Image</label>
+            <div class="input-group mb-3">
+              <input type="file" class="form-control" id="inputGroupFile01">
+            </div>
           </div>
-        </div>
-        <div class="event-date-time">
-          <label for="basic-url" class="form-label">Date and Time</label>
+          <div class="event-description">
+            <label for="basic-url" class="form-label">Event Description</label>
+            <div class="input-group create-description-box">
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+          <div class="event-date-time">
+            <label for="basic-url" class="form-label">Date and Time</label>
+            <div class="row">
+              <div class="event-time col-sm-12 col-md-4">
+                <label for="basic-url" class="form-label">Date</label>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="00/00/0000 " id="basic-url" aria-describedby="basic-addon3">
+                </div>
+              </div>
+            
+              <div class="event-time col-sm-12 col-md-4">
+                <label for="basic-url" class="form-label">Start Time</label>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="00:00" id="basic-url" aria-describedby="basic-addon3">
+                </div>
+              </div>
+              <div class="event-time col-sm-12 col-md-4">
+                <label for="basic-url" class="form-label">End Time</label>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="00:00" id="basic-url" aria-describedby="basic-addon3">
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="event-location">
+            <label for="basic-url" class="form-label">Event Location</label>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Location" id="basic-url" aria-describedby="basic-addon3">
+            </div>
+          </div>
+          <div class="event-status">
+            <label for="basic-url" class="form-label">Event Status</label>
+            <select class="form-select create-select-menu" aria-label="Default select example">
+              <option style="display:none">Status</option>
+              <option value="1">Upcoming</option>
+              <option value="2">Inactive</option>
+              <option value="3">Booked</option>
+              <option value="4">Cancelled</option>
+            </select>
+          </div>
           <div class="row">
-            <div class="event-time col-sm-12 col-md-4">
-              <label for="basic-url" class="form-label">Date</label>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="00/00/0000 " id="basic-url" aria-describedby="basic-addon3">
-              </div>
+            <div class="d-flex submit-button-div col-1">
+              <button type="button" class="btn btn-secondary submit-button">Discard</button>
             </div>
-          
-            <div class="event-time col-sm-12 col-md-4">
-              <label for="basic-url" class="form-label">Start Time</label>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="00:00" id="basic-url" aria-describedby="basic-addon3">
-              </div>
+            <div class="d-flex submit-button-div col-1">
+              <button type="button" class="btn btn-secondary submit-button">Submit</button>
             </div>
-            <div class="event-time col-sm-12 col-md-4">
-              <label for="basic-url" class="form-label">End Time</label>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="00:00" id="basic-url" aria-describedby="basic-addon3">
-              </div>
-            </div>
-          </div>
-        </div> 
-        <div class="event-location">
-          <label for="basic-url" class="form-label">Event Location</label>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Location" id="basic-url" aria-describedby="basic-addon3">
-          </div>
-        </div>
-        <div class="event-status">
-          <label for="basic-url" class="form-label">Event Status</label>
-          <select class="form-select create-select-menu" aria-label="Default select example">
-            <option style="display:none">Status</option>
-            <option value="1">Upcoming</option>
-            <option value="2">Inactive</option>
-            <option value="3">Booked</option>
-            <option value="4">Cancelled</option>
-          </select>
-        </div>
-        <div class="row">
-          <div class="d-flex submit-button-div col-1">
-            <button type="button" class="btn btn-secondary submit-button">Discard</button>
-          </div>
-          <div class="d-flex submit-button-div col-1">
-            <button type="button" class="btn btn-secondary submit-button">Submit</button>
           </div>
         </div>
       </div>
