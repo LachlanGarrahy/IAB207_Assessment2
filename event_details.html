@@ -8,34 +8,35 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed">
     <!-- CSS -->
     <link rel="stylesheet" href="./stylesheet/style.css">
 
     <title>Event Details</title>
   </head>
-  <body>
+  <body  class="page-style">
 
     <header>
       <!-- Navigation Bar -->
       <nav class="navbar navbar-expand-sm navbar-dark navbar-site">
         <div class="container-fluid">
-          <a class="navbar-brand navbar-title" href="index.html">Home</a>
+          <a class="navbar-brand navbar-title" href="index.html">Event Finder</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-0">
               <li class="nav-item">
-                  <a class="nav-link" href="event_creation.html">Create an Event</a>
+                  <a class="nav-link navbar-text" href="event_creation.html">Create an Event</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="booking_history.html">Booking History</a>
+                <a class="nav-link navbar-text" href="booking_history.html">Booking History</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
+                <a class="nav-link navbar-text" href="#">Login</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sign Up</a>
+                <a class="nav-link navbar-text" href="#">Sign Up</a>
               </li>
             </ul>
           </div>
@@ -69,7 +70,7 @@
                   <h5>Price: $20</h5>
                 </div>
                 <div class="col-12">
-                  <button type="button" class="btn btn-secondary">Purchase Tickets</button>
+                  <button type="button" class="btn btn-secondary purchase-tickets-button">Purchase Tickets</button>
                 </div>
                 <div class="col-12 event-details-description-header">
                   <h5>Event Overview</h5>
@@ -140,7 +141,7 @@
 
     </main>
 
-    <footer class="bg-dark footer-style">
+    <footer class="footer-style">
       <div class="row">
         <div class="col-12 col-sm-12 col-lg-2">
           © 2022 Title        

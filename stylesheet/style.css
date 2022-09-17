@@ -1,19 +1,26 @@
 /* variables */
 :root{
-    --background: #212529;
-    --foreground: lightgrey;
-    --main_text: black;
-    --title_text: purple;
-    --slected_text: blue;
-    --footer_text: grey;
+    --background: #2B252C;
+    --foreground: #41337A;
+    --page-background: #F7FFFE;
+    --main_text: #2B252C;
+    --footer_text: #F9FFF8;
+    --container-background: #FCFFFC;
+    --button-color: #6EA4BF;
+
+    --title-font: "Roboto";
+    --navbar-title-font: "Roboto Condensed";
 }
 
+.page-style{
+    background-color: var(--page-background);
+}
 
 .navbar-site{
     margin-top: 0;
     justify-content: center;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
     background-color: var(--background);
 }
 
@@ -29,8 +36,14 @@
 
 .navbar-title{
     margin-top: 0;
-    padding-right: 20px;
+    padding-right: 10px;
     padding-left: 5px;
+    color: var(--footer_text);
+    font-family: var(--navbar-title-font);
+}
+
+.navbar-text{
+    font-size: 15px;
 }
 
 .dropdown-menu{
@@ -49,6 +62,7 @@
     padding-left: 30px;
     padding-right: 30px;
     max-width: 1000px;
+    background-color: var(--container-background);
 }
 
 .form-label{
@@ -60,6 +74,7 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: var(--title-font);
 }
 
 .create-description-box{
@@ -75,7 +90,7 @@
 }
 
 .submit-button{
-    background-color: var(--background);
+    background-color: var(--button-color);
     max-width: 100px;
 }
 
@@ -101,6 +116,7 @@
     padding-left: 30px;
     padding-right: 30px;
     max-width: 650px;
+    background-color: var(--container-background);
 }
 
 .booking-history-price{
@@ -126,6 +142,7 @@
     max-width: 1200px;
     outline: 2px solid var(--foreground);
     padding: 50px;
+    background-color: var(--container-background);
 }
 
 .event-details-title-header{
@@ -134,6 +151,12 @@
 
 .event-details-price-header{
     padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.purchase-tickets-button{
+    background-color: var(--button-color);
+    color: var(--footer_text);
 }
 
 .event-details-description-header{
@@ -148,17 +171,19 @@
     padding-top: 30px;
 }
 
+
+
 .index-page{
     margin: 0 auto;
     float: none;
     margin-bottom: 10px;
-    max-width: 1000px;
+    max-width: 1200px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .index-search-bar{
-    max-width: 850px;
+    max-width: 1000px;
 }
 
 .index-content-navbar{
@@ -180,7 +205,8 @@
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    max-width: 850px;
+    max-width: 1000px;
+    background-color: var(--container-background);
 }
 
 .card-title{
@@ -194,6 +220,7 @@
 .comment-card{
     border: 0;
     padding: 20px;
+    background-color: var(--container-background);
 }
 
 .comment-name{
@@ -215,6 +242,7 @@
     padding-right: 10px;
     color: var(--footer_text);
     text-align: center;
+    background-color: var(--background);
 }
 
 .footer-elements{
